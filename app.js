@@ -64,6 +64,6 @@ app.get('/weather',(req,res)=>{
 //     res.send("Page not found.")
 // })
 
-app.listen(3000,()=>{
+app.listen(process.env.PORT||3000,()=>{
     console.log("server started on 3000");
 });
