@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="/">
+    <div class="container">
+        <div class="search">
+            <i class="fa-solid fa-location-dot fa-lg"></i>
+            <input type="text" name="searchText" class="text" placeholder="Enter the City">
+            
+            <button id="btn" type="submit" class="fa-solid fa-magnifying-glass fa"></button>
+      
+        </div>
+        <div class="notFound">
+            <img src="images/not-found-location-2248908-1889587.png" alt="">
+        </div>
+        <div class="weather-desc">
+            <img src="" alt="">
+                <p class="temperature">24</p>
+            
+            <p class="description">fddssd</p>
+        </div>
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-droplet"></i>
+                <div class="humText">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="winText">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</form>
+<script src="src/app.js"></script>
+</body>
+
+</html>
