@@ -6,7 +6,7 @@ const bodyParser=require("body-parser")
 app.use(express.static("public"));
 app.use(express.static(path.join(__dirname, "js")));
 app.use(bodyParser.urlencoded({ extended: true }));
-app.set('view engine', 'ejs');
+
 
 const weatherData=require(__dirname+"/weatherData")
 
